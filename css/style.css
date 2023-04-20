@@ -284,6 +284,14 @@ div.info-4 div.cit p.bold{
         width: calc((100% / 2) - 2rem);
         margin: 1rem;
     }
+
+    div.info-4{
+        display: flex;
+    }
+
+    div.cit{
+        margin-left: 2rem;
+    }
 }
 
 @media screen and (min-width: 900px) {
@@ -335,5 +343,10 @@ div.info-4 div.cit p.bold{
     div.card{
         width: calc((100% / 3) - 2rem);
         margin: 1rem;
+    }
+
+    div.info-4{
+        width: 75%;
+        margin: auto;
     }
 }
