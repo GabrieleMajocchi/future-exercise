@@ -10,6 +10,10 @@
     display: flex;
 }
 
+.column{
+    flex-direction: column;
+}
+
 .sp-bet{
     justify-content: space-between;
 }
@@ -30,8 +34,16 @@
     color: black;
 }
 
+.white{
+    color: white;
+}
+
 .light-grey{
     color: #5a6e7f;
+}
+
+.purple{
+    color: #9792e4;
 }
 
 .bold{
@@ -48,6 +60,10 @@
 
 .bg-white{
     background-color: white;
+}
+
+.bg-purple{
+    background-color: #9792e4;
 }
 
 .width-big{
@@ -142,8 +158,18 @@ div.top-head img{
     margin-top: 2rem;
 }
 
+div.info-1 img{
+    width: 90%;
+}
 
+div.info-1 .right i{
+    padding: 0.8rem 0.9rem;
+    margin-bottom: 2rem;
+}
 
+div.info-1 .left h2{
+    font-size: 2.5rem
+}
 
 
 @media screen and (min-width: 480px) {
