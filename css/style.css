@@ -217,6 +217,24 @@ div.info-3 div.card h4{
     font-size: 1.8rem;
 }
 
+div.info-4 h2{
+    font-size: 2rem;
+}
+
+div.info-4 .img{
+    background-image: url(../img/about.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 50%;
+    aspect-ratio: 1;
+    width: 80%;
+}
+
+div.info-4 div.cit p.bold{
+    font-size: 1.5rem;
+}
+
 @media screen and (min-width: 480px) {
     
     .single{
@@ -256,6 +274,10 @@ div.info-3 div.card h4{
     div.testimonial .img{
         min-width: 10rem;
         max-width: 11rem;
+    }
+
+    div.cards{
+        text-align: left;
     }
 
     div.card{
@@ -301,6 +323,11 @@ div.info-3 div.card h4{
     }
 
     div.info-2{
+        width: 75%;
+        margin: auto;
+    }
+
+    div.cards{
         width: 75%;
         margin: auto;
     }
