@@ -318,6 +318,12 @@ div.info-5 a.purple{
     div.cit{
         margin-left: 2rem;
     }
+
+    div.info-5{
+        width: 80%;
+        margin: auto;
+    }
+
 }
 
 @media screen and (min-width: 900px) {
@@ -375,4 +381,10 @@ div.info-5 a.purple{
         width: 75%;
         margin: auto;
     }
+
+    
+    div.info-5{
+        width: 50%;
+    }
+
 }
