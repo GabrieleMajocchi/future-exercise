@@ -192,6 +192,19 @@ div.testimonial .test3{
     background-image: url(../img/testimonial3.jpg);
 }
 
+div.info-3>h2{
+    font-size: 2rem;
+}
+
+div.cards{
+    flex-wrap: wrap;
+}
+
+div.card{
+    width: 100%;
+    margin: 1rem 0;
+}
+
 div.info-3 div.card{
     padding-bottom: 3rem;
 }
@@ -245,6 +258,10 @@ div.info-3 div.card h4{
         max-width: 11rem;
     }
 
+    div.card{
+        width: calc((100% / 2) - 2rem);
+        margin: 1rem;
+    }
 }
 
 @media screen and (min-width: 900px) {
@@ -286,5 +303,10 @@ div.info-3 div.card h4{
     div.info-2{
         width: 75%;
         margin: auto;
+    }
+
+    div.card{
+        width: calc((100% / 3) - 2rem);
+        margin: 1rem;
     }
 }
