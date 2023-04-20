@@ -155,7 +155,7 @@ div.top-head img{
     }
 
     div.top-head div{
-        height: auto;
+        height: 100%;
     }
 
     div.top-head, div.bottom-head{
