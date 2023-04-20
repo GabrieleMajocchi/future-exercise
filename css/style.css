@@ -74,6 +74,10 @@
     background-color: #9792e4;
 }
 
+.bg-darkgrey{
+    background-color: #333333;
+}
+
 .width-big{
     width: 90%;
 }
@@ -132,6 +136,10 @@
 
 .text-cen{
     text-align: center;
+}
+
+.line{
+    text-decoration: underline;
 }
 
 nav{
@@ -260,6 +268,10 @@ div.info-5 a.purple{
     border-radius: 2rem;
 }
 
+footer div p{
+    padding: 2.5rem 2rem;
+}
+
 
 @media screen and (min-width: 480px) {
     
@@ -324,6 +336,9 @@ div.info-5 a.purple{
         margin: auto;
     }
 
+    footer div{
+        width: 60%;
+    }
 }
 
 @media screen and (min-width: 900px) {
@@ -387,4 +402,7 @@ div.info-5 a.purple{
         width: 50%;
     }
 
+    footer div{
+        width: 40%;
+    }
 }
