@@ -228,6 +228,10 @@ div.info-1 .left h2{
     }
 
     main div.info-1 div.right{
-        margin-top: 10rem;
+        margin-top: 14rem;
+    }
+
+    main div.info-1 div.right img{
+        width: 60%;
     }
 }
