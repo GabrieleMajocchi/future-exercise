@@ -172,13 +172,24 @@ div.info-1 .left h2{
 }
 
 div.testimonial .img{
-    background-image: url(../img/testimonial1.jpg);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
     border-radius: 50%;
     aspect-ratio: 1;
     width: 80%;
+}
+
+div.testimonial .test1{
+    background-image: url(../img/testimonial1.jpg);
+}
+
+div.testimonial .test2{
+    background-image: url(../img/testimonial2.jpg);
+}
+
+div.testimonial .test3{
+    background-image: url(../img/testimonial3.jpg);
 }
 
 
@@ -206,6 +217,22 @@ div.testimonial .img{
         flex-wrap: nowrap;
     }
 
+    div.info-2 div.testimonial.column{
+        flex-direction: row;
+    }
+
+    div.info-2.text-cen div{
+        text-align: left;
+    }
+
+    div.info-2 div.test-info{
+        padding: 0 2rem;
+    }
+
+    div.testimonial .img{
+        min-width: 10rem;
+        max-width: 11rem;
+    }
 
 }
 
@@ -243,5 +270,10 @@ div.testimonial .img{
 
     main div.info-1 div.right img{
         width: 60%;
+    }
+
+    div.info-2{
+        width: 75%;
+        margin: auto;
     }
 }
