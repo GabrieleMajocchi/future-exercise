@@ -4,3 +4,30 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+.flex{
+    display: flex;
+}
+
+.sp-bet{
+    justify-content: space-between;
+}
+
+.al-cen{
+    align-items: center;
+}
+
+.bg-blu{
+    background-color: blue;
+}
+
+nav li{
+    float: left;
+    list-style-type: none;
+    padding: 1.5rem 1rem;
+}
+
+a{
+    color: black;
+    text-decoration: none;
+}
