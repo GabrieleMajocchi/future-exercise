@@ -195,6 +195,8 @@ div.info-1 .left h2{
     div.top-head, div.bottom-head{
         flex-wrap: nowrap;
     }
+
+
 }
 
 @media screen and (min-width: 900px) {
@@ -213,5 +215,19 @@ div.info-1 .left h2{
 
     div.right-nav ul{
         display: block;
+    }
+
+    main div.info-1.column{
+        flex-direction: row;
+        width: 75%;
+        margin: auto;
+    }
+
+    main div.info-1 div.left img{
+        padding-bottom: 10rem;
+    }
+
+    main div.info-1 div.right{
+        margin-top: 10rem;
     }
 }
