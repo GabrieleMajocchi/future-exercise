@@ -42,8 +42,16 @@
     color: #5a6e7f;
 }
 
+.light-purp{
+    color: #d5d4f4;
+}
+
 .purple{
     color: #9792e4;
+}
+
+.gold{
+    color: #fdc15f;
 }
 
 .bold{
@@ -234,6 +242,24 @@ div.info-4 .img{
 div.info-4 div.cit p.bold{
     font-size: 1.5rem;
 }
+
+div.info-5{
+    padding: 2rem 0;
+}
+
+div.info-5 h2{
+    font-size: 2.5rem;
+}
+
+div.info-5 h3{
+    font-size: 4rem;
+}
+
+div.info-5 a.purple{
+    padding: 1.2rem 4rem;
+    border-radius: 2rem;
+}
+
 
 @media screen and (min-width: 480px) {
     
