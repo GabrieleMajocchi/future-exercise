@@ -137,3 +137,28 @@ div.top-head img{
     width: 100%;
     margin-top: 2rem;
 }
+
+@media screen and (min-width: 480px) {
+    
+    .single{
+        width: calc((100% / 3) - 2rem);
+        margin: 0 1rem;
+    }
+    
+    .double{
+        width: calc(((100% / 3) * 2) - 2rem);
+        margin: 0 1rem;
+    }
+
+    div.top-head{
+        margin-bottom: 2rem;
+    }
+
+    div.top-head div{
+        height: auto;
+    }
+
+    div.top-head, div.bottom-head{
+        flex-wrap: nowrap;
+    }
+}
