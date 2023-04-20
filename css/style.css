@@ -138,6 +138,10 @@ div.top-head img{
     margin-top: 2rem;
 }
 
+
+
+
+
 @media screen and (min-width: 480px) {
     
     .single{
@@ -160,5 +164,24 @@ div.top-head img{
 
     div.top-head, div.bottom-head{
         flex-wrap: nowrap;
+    }
+}
+
+@media screen and (min-width: 900px) {
+    
+    div.top-head>div:first-child{
+        display: flex;
+    }
+
+    .width-big{
+        width: 75%;
+    }
+
+    div.right-nav i{
+        display: none;
+    }
+
+    div.right-nav ul{
+        display: block;
     }
 }
