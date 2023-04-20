@@ -17,8 +17,36 @@
     align-items: center;
 }
 
+.mar-auto{
+    margin: auto;
+}
+
 .bg-blu{
     background-color: blue;
+}
+
+.bg-lightblu{
+    background-color: lightblue;
+}
+
+.width70{
+    width: 70%;
+}
+
+.gap{
+    gap: 1rem;
+}
+
+.single{
+    width: calc((100% / 3) - 1rem);
+}
+
+.double{
+    width: calc(((100% / 3) * 2) - 1rem);
+}
+
+.round-box{
+    border-radius: 1.5rem;
 }
 
 nav li{
